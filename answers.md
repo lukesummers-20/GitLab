@@ -44,14 +44,14 @@ What branches would change, and how?
 git checkout test
 git merge top_N
 ```
-
+The test branch got updated with the code from the top_N branch
 6. What do you think would happen if you ran the following commands?
 What branches would change, and how?
 ```
 git checkout top_ten
 git merge test
 ```
-
+quiz.md got changed to answers.md along with the other differences in test.
 7. What do you think would happen if you ran the following commands?
 What branches would change, and how?
 ```
@@ -59,3 +59,4 @@ git checkout test
 git rebase top_ten
 git rebase top_N
 ```
+When fixed it put the desired changes into top_ten and top_N.
